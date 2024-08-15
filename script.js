@@ -9,12 +9,12 @@ const perguntas = [
         enunciado: "Qual é a principal fonte de energia renovável?",
         alternativas: [
             {
-                texto: "correto",
-                afirmacao: "energia solar. "
+                texto: "energia solar",
+                afirmacao: "correto "
             },
             {
-                texto: "incorreto",
-                afirmacao: "energia de carvão."
+                texto: "energia de carvão",
+                afirmacao: "incorreto"
             }
         ]
     },
@@ -22,12 +22,12 @@ const perguntas = [
         enunciado: "Qual é o impacto do desmatamento na biodiversidade?",
         alternativas: [
             {
-                texto: "correto",
-                afirmacao: "Redução da biodiversidade"
+                texto: "Redução da biodiversidade",
+                afirmacao: "correto"
             },
             {
-                texto: "incorreto",
-                afirmacao: "aumento da biodiversidade"
+                texto: "aumento da biodiversidade",
+                afirmacao: "incorreto"
             }
         ]
     },
@@ -35,12 +35,12 @@ const perguntas = [
         enunciado: "O que é reciclagem?",
         alternativas: [
             {
-                texto: "correto",
-                afirmacao: "Processo de transformar resíduos em novos materiais."
+                texto: "processo de transformar resíduos em novos materiais",
+                afirmacao: "correto"
             },
             {
-                texto: "incorreto",
-                afirmacao: "Processo de queimar resíduos para gerar energia"
+                texto: "Processo de queimar resíduos para gerar energia",
+                afirmacao: "incorreto"
             }
         ]
     },
@@ -48,12 +48,12 @@ const perguntas = [
         enunciado: "Qual é a principal causa das mudanças climáticas?",
         alternativas: [
             {
-                texto: "correto",
-                afirmacao: "Emissão de gases de efeito estufa"
+                afirmacao: "Emissão de gases de efeito estufa",
+                afirmacao: "correto"
             },
             {
-                texto: "incorreto",
-                afirmacao: "Uso de energia eólica"
+                texto: "Uso de energia eólica",
+                afirmacao: "incorreto"
             }
         ]
     },
@@ -61,12 +61,12 @@ const perguntas = [
         enunciado: "Como a conservação de água pode ser promovida?",
         alternativas: [
             {
-                texto: "correto",
-                afirmacao: "Instalando torneiras e chuveiros economizadores"
+                texto: "Instalando torneiras e chuveiros economizadores",
+                afirmacao: "correto"
             },
             {
-                texto: "incorreto",
-                afirmacao: "Aumentando o uso de água em áreas agrícolas"
+                texto: "Aumentando o uso de água em áreas agrícolas",
+                afirmacao: "incorreto"
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = 
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
